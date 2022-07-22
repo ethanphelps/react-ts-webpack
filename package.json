@@ -1,0 +1,11 @@
+{
+  "name": "react-ts-webpack",
+  "version": "1.0.0",
+  "description": "A template for creating a Typescript React application using Webpack.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Phelps",
+  "license": "ISC"
+}
