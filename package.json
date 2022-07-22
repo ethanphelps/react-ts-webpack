@@ -7,5 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ethan Phelps",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-dev-server": "^4.9.3"
+  }
 }
