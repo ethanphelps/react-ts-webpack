@@ -11,8 +11,15 @@ module.exports = {
     clean: true
   },
   mode: "development",
+  cache: false, // avoid caching not updating page
   devServer: {
     port: 8080,
+    hot: true,
+    static: {
+      directory: path.join(__dirname, "public"), // get assets from here on reload
+    },
+    liveReload: true,
+    watchFiles: [ path.join(__dirname, 'src/**/*') ]
   },
   plugins: [
     new HtmlWebpackPlugin({
