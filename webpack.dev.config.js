@@ -14,6 +14,7 @@ module.exports = {
   cache: false, // avoid caching not updating page
   devServer: {
     port: 8080,
+    historyApiFallback: true, // required for SPA routing. redirects 404s to index.html and lets it behave as if server-side rendered
     hot: true,
     static: {
       directory: path.join(__dirname, "public"), // get assets from here on reload
